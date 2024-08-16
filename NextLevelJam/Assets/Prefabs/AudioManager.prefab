@@ -1,0 +1,277 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2001770202487434609
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4581171671542791981}
+  - component: {fileID: 6897557438901745489}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4581171671542791981
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001770202487434609}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6897557438901745489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001770202487434609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fa783c20a5f59f41bcc6b244e861b7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Construir
+    clip: {fileID: 8300000, guid: fe8b44abe7b4c3444870a8e7140d1aa0, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Death1
+    clip: {fileID: 8300000, guid: 1bc28b67d4cc4a64c8067f15b099d5bc, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Death2
+    clip: {fileID: 8300000, guid: 97625987e3168bd48a4c4f19451ce8a7, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Ferro1
+    clip: {fileID: 8300000, guid: 5ce0dddd85780fc41ba9f4e801b905c7, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Ferro2
+    clip: {fileID: 8300000, guid: 3aed4875cff10cb4a9bff707832e497e, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Ferro3
+    clip: {fileID: 8300000, guid: 991c6db87cd50f444b3e0d71fd505480, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Grama1
+    clip: {fileID: 8300000, guid: 5f4a202218caf954d9c95ab26815bd5b, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Grama2
+    clip: {fileID: 8300000, guid: 9815e943f17ad4a4289d28c3ff9f38e2, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: GuardarTropa
+    clip: {fileID: 8300000, guid: 6a522e684538af34cbe268e6acb432a9, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MeeleHit1
+    clip: {fileID: 8300000, guid: e84e515814f7d6847a0638be19be7b16, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MeeleHit2
+    clip: {fileID: 8300000, guid: b38efc53bcfc659438f86b644f267fad, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Madeira1
+    clip: {fileID: 8300000, guid: 8279d184213d8514f968dcad016b3a61, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Madeira2
+    clip: {fileID: 8300000, guid: 825f6dc49c6cab94f97f8bb0c8dd4ddf, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Moeda
+    clip: {fileID: 8300000, guid: b795f97e76b1f604892fd6c520a192de, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Pedra1
+    clip: {fileID: 8300000, guid: d40d56091b3f13443bd1ec12731e7b82, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Pedra2
+    clip: {fileID: 8300000, guid: 62344927c546b2e4482c6f345e2f1c72, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Pedra3
+    clip: {fileID: 8300000, guid: 35f2c876586ac524b88d601e9cd401be, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PedraMagica
+    clip: {fileID: 8300000, guid: 32fcd78a543350944b493673d585aa2a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MusicNormal
+    clip: {fileID: 8300000, guid: f4f1171fbae438944853eb9a371334e5, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: GruCampones
+    clip: {fileID: 8300000, guid: 9af330ef3120a4a42aa99fe2384fffc8, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: GruComerciante
+    clip: {fileID: 8300000, guid: fc7c80fba9396cd489b043044ee21a32, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: GruConstrutor
+    clip: {fileID: 8300000, guid: a445ac828adcb274997092c3ef11641e, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: GruGuerreiro
+    clip: {fileID: 8300000, guid: c98b238f3fafaec4984ebff609e405c5, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: GruLenhador
+    clip: {fileID: 8300000, guid: 272c2603d0232bd46ba646394e94dd4e, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: GruMago
+    clip: {fileID: 8300000, guid: 4bd57bbc3aea5c94ba8b7ae2464daa0c, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: GruMinerador
+    clip: {fileID: 8300000, guid: 365965d455598414cac5a0250bd2abbd, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: GruRei
+    clip: {fileID: 8300000, guid: 41a9af075fea91242a25740856818470, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: GruArqueira
+    clip: {fileID: 8300000, guid: ce928f49bb58f2141b7d0f7e77c6884d, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MusicBattle
+    clip: {fileID: 8300000, guid: 5cb1c5b2b1be0ce429d04517eeda4339, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Flecha
+    clip: {fileID: 8300000, guid: 06a8bb54d80c3f74492170987f1c98a8, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: House
+    clip: {fileID: 8300000, guid: 6a522e684538af34cbe268e6acb432a9, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Trigo
+    clip: {fileID: 8300000, guid: 275a9add7f412eb4f86fc807f32b1c5f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Magia
+    clip: {fileID: 8300000, guid: f536b555b0b6c734e87eb706b8ea39bb, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Mordida
+    clip: {fileID: 8300000, guid: f536b555b0b6c734e87eb706b8ea39bb, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: "MorteDrag\xE3o"
+    clip: {fileID: 8300000, guid: dc296722371d4e344a3853a10fa28bd6, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: "PassosDrag\xE3o1"
+    clip: {fileID: 8300000, guid: 1345a3e1982b5a24da5c019fcd43c164, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: "PassosDrag\xE3o2"
+    clip: {fileID: 8300000, guid: fa19db64524a90649b7c704745e8aab9, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: "PassosDrag\xE3o3"
+    clip: {fileID: 8300000, guid: f89722a49e4067540ad2c5b0889d1c3f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  normalMusic: {fileID: 11400000, guid: 85ec46de2adf72b43bbd185ab400ffb7, type: 2}
+  battleMusic: {fileID: 11400000, guid: 6fdb1416cbe5b06468866cd7e66cf69b, type: 2}

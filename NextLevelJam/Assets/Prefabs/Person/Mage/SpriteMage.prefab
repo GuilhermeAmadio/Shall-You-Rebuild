@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &712098011653120884
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1994247865888231630, guid: 4e1cc141c580185489baad51c97e01f9,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 4458d800849b8fd488797fb28b276a67, type: 2}
+    - target: {fileID: 5418659962175632716, guid: 4e1cc141c580185489baad51c97e01f9,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0316762d371745645a0eaaa38a698291,
+        type: 3}
+    - target: {fileID: 5418659962175632716, guid: 4e1cc141c580185489baad51c97e01f9,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6489995455059443323, guid: 4e1cc141c580185489baad51c97e01f9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6489995455059443323, guid: 4e1cc141c580185489baad51c97e01f9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6489995455059443323, guid: 4e1cc141c580185489baad51c97e01f9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6489995455059443323, guid: 4e1cc141c580185489baad51c97e01f9,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6489995455059443323, guid: 4e1cc141c580185489baad51c97e01f9,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6489995455059443323, guid: 4e1cc141c580185489baad51c97e01f9,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6489995455059443323, guid: 4e1cc141c580185489baad51c97e01f9,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6489995455059443323, guid: 4e1cc141c580185489baad51c97e01f9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6489995455059443323, guid: 4e1cc141c580185489baad51c97e01f9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6489995455059443323, guid: 4e1cc141c580185489baad51c97e01f9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8552794515388972196, guid: 4e1cc141c580185489baad51c97e01f9,
+        type: 3}
+      propertyPath: m_Name
+      value: SpriteMage
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 335462328696374889, guid: 4e1cc141c580185489baad51c97e01f9,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 301518195709042911}
+  m_SourcePrefab: {fileID: 100100000, guid: 4e1cc141c580185489baad51c97e01f9, type: 3}
+--- !u!1 &956500811295335709 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 335462328696374889, guid: 4e1cc141c580185489baad51c97e01f9,
+    type: 3}
+  m_PrefabInstance: {fileID: 712098011653120884}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &301518195709042911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956500811295335709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 786b76cb513d60549a0dcc0a68790bec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound: {fileID: 11400000, guid: ba8873d82746e5e44b49b726b42c0c32, type: 2}
